@@ -19,3 +19,8 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+variables: 
+  ## Add this under variables section in the pipeline
+  azureSubscription: c6403681-4e47-4d9f-8f9b-c785ee87c3b8
+  appName: seshenmpm
